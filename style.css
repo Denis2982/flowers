@@ -46,9 +46,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.header__auth {
-    font-size: 0;
-}
 .btn {
     display: inline-block;
     border: 0;
@@ -72,6 +69,7 @@ body {
 }
 .btn_link {
     color: #156963;
+    margin-left: 10px;
 }
 .btn_primary {
     background-color: #156963;    
@@ -157,15 +155,15 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
-.card__produkt {
+.card__product {
     display: flex;
     flex-direction: column;
     font-size: 16px;
     line-height: 20px;  
     transition: all 0.3s; 
 }
-.card__produkt:hover {
-    box-shadow:15px 20px 20px rgba(0,0,0,0.2);
+.card__product:hover {
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.2);
 }
 .card__flower {
     margin-bottom: 16px;
